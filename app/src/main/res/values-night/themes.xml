@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Базовая тема приложения -->
+    <style name="Theme.Carity" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/background</item>
+    </style>
+
+    <!-- Стиль для кнопки добавления -->
+    <style name="AddButton" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/button_add</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!-- Стиль для кнопки удаления -->
+    <style name="DeleteButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@color/button_delete</item>
+    </style>
+</resources>
